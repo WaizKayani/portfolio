@@ -43,8 +43,9 @@ This is my personal portfolio, designed and built to showcase my software engine
 ---
 
 ## 📸 Screenshots
-<img width="1710" alt="homepage" src="https://github.com/user-attachments/assets/a30a0d07-f677-4f2f-91c8-07fd09c7b064" />
+
 <img width="1710" alt="whowatchingpage" src="https://github.com/user-attachments/assets/29d0dcca-651c-4fff-84a7-a0fed153c61a" />
+<img width="1710" alt="homepage" src="https://github.com/user-attachments/assets/a30a0d07-f677-4f2f-91c8-07fd09c7b064" />
 
 ---
 
