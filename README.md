@@ -1,123 +1,87 @@
-## 🌟 Waiz Kayani's Netflix inspired Portfolio 🌟 - https://waizkayani.com/
+# Waiz Kayani – Netflix-Inspired Portfolio
 
-Welcome to my personal portfolio project! 🚀 This website showcases my work, skills, and experiences in web development. It's designed to be lightweight, customizable, and professional while maintaining an approachable style.
-
-Explore specific subdomains tailored to different tech stacks:
-
-- 🌟 [java.waizkayani.com](https://java.waizkayani.com/) for Java Spring Boot-related work.
-- 🌟 [node.waizkayani.com](https://node.waizkayani.com/) for Node.js and backend development.
-- 🌟 [frontend.waizkayani.com](https://frontend.waizkayani.com/) for frontend development expertise.
-- 🌟 [ror.waizkayani.com](https://ror.waizkayani.com/) for Ruby on Rails projects.
-
-![Screenshot from 2024-12-08 19-19-06](https://github.com/user-attachments/assets/f8220485-16ec-48cf-8cb2-7853540c5724)
+> **Professional Portfolio for Summer 2026 SWE Internship Applications**
 
 ---
 
-## ✨ Features
+## 🚀 Overview
 
-- 🌍 **Dynamic Content**: Powered by [DatoCMS](https://www.datocms.com) for easy content management.
-- ⚡ **Fast & Responsive**: Built with modern web technologies for seamless performance.
-- 🎨 **Customizable**: Modular and easy to adapt to your own needs.
-- 📈 **Professional Yet Personal**: Highlights projects, skills, and achievements.
-- 🎨 It can support various por
+This is my personal portfolio, designed and built from scratch to showcase my software engineering skills, projects, and experience. Inspired by Netflix's iconic UI/UX, this site demonstrates my ability to deliver polished, responsive, and interactive web applications using a modern tech stack.
 
 ---
 
 ## 🛠️ Tech Stack
 
-This portfolio is built with love and:
-
-- ⚛️ **React** (Frontend)
-- ☁️ **AWS S3 & CloudFront** (Hosting and CDN)
-- 🖌️ **Tailwind CSS** (Styling)
-- 🛡️ **DatoCMS** (Content Management)
-- 🧩 **Other Cool Tools**: GitHub Actions
+- **Frontend:** React, Vite, TypeScript
+- **Styling:** Tailwind CSS, Framer Motion (for animations)
+- **Routing:** React Router
+- **Build Tools:** Vite, npm
+- **Deployment:** [Live Demo Coming Soon](#) <!-- Replace with your link -->
 
 ---
 
-## ⭐ Show Your Support
+## ✨ Features
 
-If you find this project helpful or inspiring, give it a ⭐ on GitHub—it means the world to me! 🌟
-
-Happy coding! 💻✨
-
----
-
-## 📚 Getting Started
-
-Want to set this up locally? Follow these steps:
-
-1. **Clone the Repository**: Copy the repository to your local system.
-2. **Install Dependencies**: Use a package manager to install the required dependencies.
-
-```bash
-nvm install 18
-nvm use 18
-```
-
-After upgrading Node.js, clear your node_modules and reinstall:
-
-```bash
-rm -rf node_modules
-npm cache clean --force
-npm install
-```
-
-3. **Configure Environment Variables**: Create a `.env` file and set up the necessary API keys and configurations.
-4. **Run the Project**: Start the development server.
-
-```bash
-npm start
-```
-
-5. **Visit the Local Server**: Open your browser and navigate to the local server URL.
-   ![alt text](image.png)
+- **Netflix-Style UI/UX:** Custom profile selection, sticky navbar, carousels, and timeline layouts.
+- **Mobile Responsive:** Fully optimized for all devices.
+- **Dynamic Sections:** About, Skills, Projects, Experience, Leadership, Certifications, Hobbies, Music, and more.
+- **Interactive Animations:** Smooth transitions and engaging effects using Framer Motion.
+- **Accessibility:** Keyboard navigation and ARIA labels for better usability.
 
 ---
 
-## 🤝 Contribution Guidelines
+## 📚 Skills Demonstrated
 
-Contributions are welcome and appreciated! 🥳 To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Commit your changes with a descriptive message.
-4. Push your changes to your branch.
-5. Open a Pull Request. 🎉
-
----
-
-## 🐛 Issues and Feature Requests
-
-Found a bug? Have a feature in mind? 🤔 Feel free to raise an issue or suggest a feature!
-
-1. Go to the **Issues** tab in the repository.
-2. Click **New Issue**.
-3. Provide a clear description of the bug or feature request.
-4. If applicable, include screenshots or steps to reproduce the issue.
-
-Your feedback is valuable and helps make this project better for everyone. Thank you for contributing!
+- Advanced React component architecture
+- Responsive design with Tailwind CSS
+- State management and routing
+- Integration of multimedia (YouTube, images, sound)
+- Clean, maintainable, and scalable codebase
+- Professional UI/UX best practices
 
 ---
 
-## 🌟 Acknowledgments
+## 🧑‍💻 About Me
 
-- Thanks to [DatoCMS](https://www.datocms.com) for powering the dynamic content.
-- Inspired by countless developers in the open-source community. 💻
-- Special shoutout to all contributors—you rock! 🤘
+I'm Waiz Kayani, a passionate software engineer actively seeking Summer 2026 SWE internship opportunities. This portfolio is a living demonstration of my technical and creative abilities, as well as my commitment to building user-centric products.
 
 ---
 
-## 📧 Contact Me
+## 📸 Screenshots
 
-- 💼 [Portfolio Website](https://waizkayani.com)
-- 📧 Email: [kayani.6@osu.edu](mailto:kayani.6@osu.edu)
-- 🔗 [LinkedIn](https://linkedin.com/in/waizkayani)
+<!-- Add screenshots here after deployment -->
 
 ---
 
-## 📜 License
+## 📂 Sections
 
-This project is licensed under the MIT License. Feel free to use it, modify it, and share it! 🌈
+- **Home:** Introduction and quick links
+- **Skills:** Technical proficiencies
+- **Projects:** Selected works with live demos and code
+- **Experience:** Work history and impact
+- **Leadership:** Campus and community leadership roles
+- **Certifications:** Verified credentials
+- **Hobbies, Music, Career Plans:** Personal interests and future goals
+- **Contact:** How to reach me
+
+---
+
+## 🔗 Links
+
+- **[LinkedIn](https://www.linkedin.com/in/waizkayani/)**
+- **[Resume](#)** <!-- Add your resume link -->
+- **[Live Demo](#)** <!-- Add your deployed site link -->
+
+---
+
+## 📬 Contact
+
+For opportunities or questions, please reach out via [email](mailto:waizkayani@gmail.com) or [LinkedIn](https://www.linkedin.com/in/waizkayani/).
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
