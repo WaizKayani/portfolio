@@ -1,12 +1,48 @@
-body {
-  margin: 0;
-  font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #141414;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-netflix-black text-white font-netflix;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .netflix-button {
+    @apply bg-netflix-red hover:bg-red-700 text-white font-semibold py-3 px-8 rounded-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-netflix-red focus:ring-opacity-50;
+  }
+
+  .netflix-card {
+    @apply bg-netflix-card hover:bg-netflix-hover rounded-lg p-6 transition-all duration-300 transform hover:scale-105 hover:shadow-xl;
+  }
+
+  .netflix-input {
+    @apply bg-netflix-dark-gray border border-netflix-gray text-white rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-netflix-red focus:border-transparent transition-all duration-300;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-netflix-red to-red-600 bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/10 border border-white/20;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(229, 9, 20, 0.5);
+  }
 }

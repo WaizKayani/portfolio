@@ -1,6 +1,6 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import NetflixTitle from './NetflixTitle';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Home from './pages/Home';
 import ProfilePage from './profilePage/profilePage';
 import Browse from './browse/browse';
 import WorkPermit from './pages/WorkPermit';
@@ -18,9 +18,10 @@ import Certifications from './pages/Certifications';
 const App: React.FC = () => {
   return (
     <Routes>
-      <Route path="/" element={<NetflixTitle />} />
+      <Route path="/" element={<Navigate to="/browse" replace />} />
       <Route path="/browse" element={<Browse />} />
       <Route path="/profile/:profileName" element={<Layout><ProfilePage /></Layout>} />
+      <Route path="/home" element={<Home />} />
       <Route path="/work-permit" element={<Layout><WorkPermit /></Layout>} />
       <Route path="/work-experience" element={<Layout><WorkExperience /></Layout>} />
       <Route path="/recommendations" element={<Layout><Recommendations /></Layout>} />

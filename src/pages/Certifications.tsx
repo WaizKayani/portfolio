@@ -1,31 +1,41 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Certifications.css';
 import { FaExternalLinkAlt, FaUniversity } from 'react-icons/fa';
 import { SiUdemy, SiCoursera, SiIeee } from 'react-icons/si';
 import { Certification } from '../types';
-import { getCertifications } from '../queries/getCertifications';
+
 const iconData: { [key: string]: JSX.Element } = {
   'udemy': <SiUdemy />,
   'coursera': <SiCoursera />,
   'ieee': <SiIeee />,
   'university': <FaUniversity />
-}
+};
+
+const certifications: Certification[] = [
+  {
+    title: 'Machine Learning Specialization',
+    issuer: 'Coursera/Stanford',
+    issuedDate: '2023',
+    link: 'https://coursera.org/verify/ML123',
+    iconName: 'coursera',
+  },
+  {
+    title: 'Full Stack Web Development',
+    issuer: 'Udemy',
+    issuedDate: '2022',
+    link: 'https://udemy.com/certificate/FSWD456',
+    iconName: 'udemy',
+  },
+  {
+    title: 'IEEE Xtreme Programming',
+    issuer: 'IEEE',
+    issuedDate: '2021',
+    link: 'https://ieeextreme.org/certificate/789',
+    iconName: 'ieee',
+  },
+];
 
 const Certifications: React.FC = () => {
-
-  const [certifications, setCertifications] = useState<Certification[]>([]);
-
-  useEffect(() => { 
-    async function fetchCertifications() {
-      const data = await getCertifications();
-      setCertifications(data);
-    }
-
-    fetchCertifications();
-  }, []);
-
-  if (certifications.length === 0) return <div>Loading...</div>;
-
   return (
     <div className="certifications-container">
       <div className="certifications-grid">

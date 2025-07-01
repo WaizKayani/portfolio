@@ -1,32 +1,23 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './ProfileBanner.css';
 import PlayButton from '../components/PlayButton';
 import MoreInfoButton from '../components/MoreInfoButton';
-import { getProfileBanner } from '../queries/getProfileBanner';
-import { ProfileBanner as ProfileBannerType } from '../types';
+
+const bannerData = {
+  headline: "Hi, I'm Waiz Kayani",
+  resumeLink: { url: 'https://waizkayani.com/resume.pdf' },
+  linkedinLink: 'https://linkedin.com/in/waizkayani',
+  profileSummary: 'Aspiring software engineer, entrepreneur, and student at The Ohio State University. Passionate about building impactful products and leading teams to success.'
+};
 
 const ProfileBanner: React.FC = () => {
-
-
-  const [bannerData, setBannerData] = useState<ProfileBannerType | null>(null);
-
-  useEffect(() => {
-    async function fetchData() {
-      const data = await getProfileBanner();
-      setBannerData(data);
-    }
-    fetchData();
-  }, []);
-
-  if (!bannerData) return <div>Loading...</div>;
-
   const handlePlayClick = () => {
     window.open(bannerData.resumeLink.url, '_blank');
   };
 
-  const handleLinkedinClick = () => { 
+  const handleLinkedinClick = () => {
     window.open(bannerData.linkedinLink, '_blank');
-  }
+  };
 
   return (
     <div className="profile-banner">
@@ -35,7 +26,6 @@ const ProfileBanner: React.FC = () => {
         <p className="banner-description">
           {bannerData.profileSummary}
         </p>
-
         <div className="banner-buttons">
           <PlayButton onClick={handlePlayClick} label="Resume" />
           <MoreInfoButton onClick={handleLinkedinClick} label="Linkedin" />
