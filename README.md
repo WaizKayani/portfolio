@@ -65,13 +65,13 @@ This is my personal portfolio, designed and built to showcase my software engine
 ## 🔗 Links
 
 - **[LinkedIn](https://www.linkedin.com/in/waizkayani/)**
-- **[Live Demo](#)** https://www.waizkayani.website
+- **[Live Website](#)** https://www.waizkayani.website
 
 ---
 
 ## 📬 Contact
 
-For opportunities or questions, please reach out via [email](mailto:kayani.6@osu.edu), [email](mailto:kayaniwaiz@gmail.com) or [LinkedIn](https://www.linkedin.com/in/waizkayani/).
+For opportunities or questions, please reach out via [email](mailto:kayani.6@osu.edu) or [LinkedIn](https://www.linkedin.com/in/waizkayani/).
 
 ---
 
