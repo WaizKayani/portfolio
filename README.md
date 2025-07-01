@@ -42,14 +42,14 @@ This is my personal portfolio, designed and built to showcase my software engine
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <img width="1710" alt="whowatchingpage" src="https://github.com/user-attachments/assets/29d0dcca-651c-4fff-84a7-a0fed153c61a" />
 <img width="1710" alt="homepage" src="https://github.com/user-attachments/assets/a30a0d07-f677-4f2f-91c8-07fd09c7b064" />
 
 ---
 
-## 📂 Sections
+## Sections
 
 - **Home:** Introduction and quick links
 - **Skills:** Technical proficiencies
@@ -62,20 +62,20 @@ This is my personal portfolio, designed and built to showcase my software engine
 
 ---
 
-## 🔗 Links
+## Links
 
 - **[LinkedIn](https://www.linkedin.com/in/waizkayani/)**
 - **[Live Website](#)** https://www.waizkayani.website
 
 ---
 
-## 📬 Contact
+## Contact
 
 For opportunities or questions, please reach out via [email](mailto:kayani.6@osu.edu) or [LinkedIn](https://www.linkedin.com/in/waizkayani/).
 
 ---
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
