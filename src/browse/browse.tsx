@@ -1,15 +1,11 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import ProfileCard from '../components/ProfileCard';
-import blueImage from '../images/blue.png';
-import greyImage from '../images/grey.png';
-import redImage from '../images/red.png';
-import yellowImage from '../images/yellow.png';
-import netflixSound from '../netflix-sound.mp3';
 import professorImg from '../images/professor.jpg';
-import bossBabyImg from '../images/bossbaby.jpg';
 import willSmithImg from '../images/willsmith.jpg';
+import bossBabyImg from '../images/bossbaby.jpg';
 import johnCenaImg from '../images/johncena.jpg';
+import netflixSound from '../netflix-sound.mp3';
 
 const profiles = [
   {
