@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaPhone } from 'react-icons/fa';
 
 const ContactMe: React.FC = () => {
   return (
@@ -16,6 +16,9 @@ const ContactMe: React.FC = () => {
         <div className="flex flex-col gap-4 mb-6 w-full">
           <a href="mailto:kayani.6@osu.edu" className="flex items-center gap-3 justify-center netflix-button w-full" aria-label="Email">
             <FaEnvelope className="text-xl" /> kayani.6@osu.edu
+          </a>
+          <a href="tel:+17408799843" className="flex items-center gap-3 justify-center netflix-button w-full" aria-label="Phone">
+            <FaPhone className="text-xl" /> (740) 879-9843
           </a>
           <a href="https://www.linkedin.com/in/waiz-k-713101227/" className="flex items-center gap-3 justify-center netflix-button w-full" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="text-xl" /> LinkedIn

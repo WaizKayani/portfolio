@@ -13,19 +13,32 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* Show default cursor on interactive elements when custom cursor is disabled */
+  a, button, input, textarea, select, [role="button"] {
+    cursor: pointer;
+  }
+
+  /* Mobile-friendly touch targets */
+  @media (max-width: 640px) {
+    button, a, [role="button"] {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
 }
 
 @layer components {
   .netflix-button {
-    @apply bg-netflix-red hover:bg-red-700 text-white font-semibold py-3 px-8 rounded-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-netflix-red focus:ring-opacity-50;
+    @apply bg-netflix-red hover:bg-red-700 text-white font-semibold py-2 px-4 sm:py-3 sm:px-8 rounded-md transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-netflix-red focus:ring-opacity-50 text-sm sm:text-base;
   }
 
   .netflix-card {
-    @apply bg-netflix-card hover:bg-netflix-hover rounded-lg p-6 transition-all duration-300 transform hover:scale-105 hover:shadow-xl;
+    @apply bg-netflix-card hover:bg-netflix-hover rounded-lg p-4 sm:p-6 transition-all duration-300 transform hover:scale-105 hover:shadow-xl;
   }
 
   .netflix-input {
-    @apply bg-netflix-dark-gray border border-netflix-gray text-white rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-netflix-red focus:border-transparent transition-all duration-300;
+    @apply bg-netflix-dark-gray border border-netflix-gray text-white rounded-md px-3 sm:px-4 py-2 sm:py-3 focus:outline-none focus:ring-2 focus:ring-netflix-red focus:border-transparent transition-all duration-300 text-sm sm:text-base;
   }
 
   .gradient-text {
@@ -34,6 +47,21 @@
 
   .glass-effect {
     @apply backdrop-blur-md bg-white/10 border border-white/20;
+  }
+
+  /* Enhanced hover effects for interactive elements */
+  .interactive-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .interactive-hover:hover {
+    @apply transform scale-105 shadow-2xl;
+    box-shadow: 0 0 30px rgba(229, 9, 20, 0.3);
+  }
+
+  /* Mobile-specific button styles */
+  .mobile-friendly-button {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
   }
 }
 
@@ -44,5 +72,40 @@
 
   .text-glow {
     text-shadow: 0 0 10px rgba(229, 9, 20, 0.5);
+  }
+
+  /* Smooth loading animations */
+  .animate-pulse-slow {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Netflix-style shimmer effect */
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  /* Mobile-specific utilities */
+  .mobile-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .mobile-text {
+    @apply text-sm sm:text-base lg:text-lg;
   }
 }

@@ -19,7 +19,7 @@ const timelineData = [
       'Established and manage revenue-sharing models with small businesses, enabling passive income and 2X projected growth.'
     ],
     dateRange: '05/2024–Present',
-    github: 'https://github.com/WaizKayani/kianiatmsolutions',
+    github: 'https://waizkayani.github.io/kianiatmsolutions/',
   },
   {
     timelineType: 'work',
@@ -104,7 +104,7 @@ const WorkExperience: React.FC = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 netflix-button mt-2"
                 >
-                  <FaGithub /> View Website Code
+                  <FaGithub /> View Website
                 </a>
               )}
             </div>

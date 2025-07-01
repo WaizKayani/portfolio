@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaUsers, FaUniversity } from 'react-icons/fa';
+import { FaUsers, FaUniversity, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Leadership: React.FC = () => {
   return (
@@ -19,7 +19,15 @@ const Leadership: React.FC = () => {
         </div>
         <div className="flex items-center gap-2 mb-2">
           <FaUniversity className="text-lg text-netflix-gray" />
-          <span className="text-netflix-light-gray">Punjabi Students Association at Ohio State</span>
+          <a 
+            href="https://activities.osu.edu/involvement/student_organizations/find_a_student_org/?i=ea5f1bd9-c764-42b9-b476-7d29697a5f74&l=P&c=all&page=8" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-netflix-light-gray hover:text-netflix-red transition-colors duration-200 flex items-center gap-1"
+          >
+            Punjabi Students Association at Ohio State
+            <FaExternalLinkAlt className="text-xs" />
+          </a>
         </div>
         <span className="text-sm text-netflix-gray mb-4">12/2024–Present</span>
         <ul className="list-disc text-left ml-6 text-sm text-white space-y-2">

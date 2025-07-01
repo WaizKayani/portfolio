@@ -10,28 +10,32 @@ interface ContinueWatchingProps {
 
 const continueWatchingConfig = {
   recruiter: [
-    { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Hobbies", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/hobbies" },
+    { title: "Future Career Plans", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/future-career-plans" },
+    { title: "Music", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/music" },
+    { title: "Favourite Shows of All Time", imgSrc: "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg", link: "/favourite-shows" },
+    { title: "Favourite YouTubers", imgSrc: "https://picsum.photos/id/1031/300/200", link: "/favourite-youtubers" }
   ],
   developer: [
-    { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Hobbies", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/hobbies" },
+    { title: "Future Career Plans", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/future-career-plans" },
+    { title: "Music", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/music" },
+    { title: "Favourite Shows of All Time", imgSrc: "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg", link: "/favourite-shows" },
+    { title: "Favourite YouTubers", imgSrc: "https://picsum.photos/id/1031/300/200", link: "/favourite-youtubers" }
   ],
   stalker: [
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Blogs", imgSrc: "https://picsum.photos/id/1027/300/200", link: "/blogs" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Hobbies", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/hobbies" },
+    { title: "Future Career Plans", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/future-career-plans" },
+    { title: "Music", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/music" },
+    { title: "Favourite Shows of All Time", imgSrc: "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg", link: "/favourite-shows" },
+    { title: "Favourite YouTubers", imgSrc: "https://picsum.photos/id/1031/300/200", link: "/favourite-youtubers" }
   ],
   adventure: [
-    { title: "Music", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/music" },
-    { title: "Reading", imgSrc: "https://picsum.photos/id/1026/300/200", link: "/reading" },
-    { title: "Certifications", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/certifications" },
-    { title: "Contact Me", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/contact-me" }
+    { title: "Hobbies", imgSrc: "https://picsum.photos/id/1025/300/200", link: "/hobbies" },
+    { title: "Future Career Plans", imgSrc: "https://picsum.photos/id/1028/300/200", link: "/future-career-plans" },
+    { title: "Music", imgSrc: "https://picsum.photos/id/1029/300/200", link: "/music" },
+    { title: "Favourite Shows of All Time", imgSrc: "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg", link: "/favourite-shows" },
+    { title: "Favourite YouTubers", imgSrc: "https://picsum.photos/id/1031/300/200", link: "/favourite-youtubers" }
   ]
 };
 

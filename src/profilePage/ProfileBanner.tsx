@@ -5,9 +5,9 @@ import MoreInfoButton from '../components/MoreInfoButton';
 
 const bannerData = {
   headline: "Hi, I'm Waiz Kayani",
-  resumeLink: { url: 'https://waizkayani.com/resume.pdf' },
-  linkedinLink: 'https://linkedin.com/in/waizkayani',
-  profileSummary: 'Aspiring software engineer, entrepreneur, and student at The Ohio State University. Passionate about building impactful products and leading teams to success.'
+  resumeLink: { url: '/resume.pdf' },
+  linkedinLink: 'https://www.linkedin.com/in/waiz-k-713101227/',
+  profileSummary: "A Computer Science student at The Ohio State University specializing in Artificial Intelligence. I've built at the intersection of innovation and impact through roles at Apple and FirstEnergy, and as the founder of Kiani ATM Solutions. From AI-powered media authentication to immersive spatial apps for Apple Vision Pro, I love creating technology that makes a difference. I'm currently seeking Summer 2026 Software Engineering internships where I can continue building scalable, user-centered solutions."
 };
 
 const ProfileBanner: React.FC = () => {

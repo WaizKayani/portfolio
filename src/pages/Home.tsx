@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const heroVariants = {
@@ -8,8 +9,10 @@ const heroVariants = {
 };
 
 const Home: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
-    <div className="min-h-screen bg-netflix-black flex flex-col items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen bg-netflix-black flex flex-col items-center justify-center relative overflow-hidden px-4">
       {/* Hero Section */}
       <motion.div
         className="w-full max-w-3xl text-center z-10"
@@ -17,32 +20,29 @@ const Home: React.FC = () => {
         animate="visible"
         variants={heroVariants}
       >
-        <h1 className="text-5xl md:text-6xl font-extrabold gradient-text mb-4 text-shadow">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold gradient-text mb-4 text-shadow">
           Waiz Kayani
         </h1>
-        <p className="text-xl md:text-2xl text-netflix-light-gray mb-6 font-medium">
-          Software Engineer & Entrepreneur | AI, iOS, and Full Stack Development
+        <p className="text-lg sm:text-xl md:text-2xl text-netflix-light-gray mb-6 font-medium leading-relaxed">
+          A Computer Science student at The Ohio State University specializing in Artificial Intelligence. I've built at the intersection of innovation and impact through roles at Apple and FirstEnergy, and as the founder of Kiani ATM Solutions. From AI-powered media authentication to immersive spatial apps for Apple Vision Pro, I love creating technology that makes a difference. I'm currently seeking Summer 2026 Software Engineering internships where I can continue building scalable, user-centered solutions.
         </p>
-        <p className="mb-8 text-lg text-netflix-gray max-w-2xl mx-auto">
-          I'm a Computer Science student at The Ohio State University, specializing in Artificial Intelligence. Experienced at Apple, FirstEnergy, and as founder of Kiani ATM Solutions. Passionate about building impactful products—like Deepfake Detection AI, FocusSpace Vision Pro, and scalable inventory systems.
-        </p>
-        <div className="flex justify-center gap-6 mb-8">
-          <a href="mailto:kayani.6@osu.edu" className="netflix-button" aria-label="Email">
+        <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-6 mb-8">
+          <a href="mailto:kayani.6@osu.edu" className="netflix-button text-sm sm:text-base" aria-label="Email">
             <FaEnvelope className="inline mr-2" /> Email
           </a>
-          <a href="https://www.linkedin.com/in/waiz-k-713101227/" className="netflix-button" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/waiz-k-713101227/" className="netflix-button text-sm sm:text-base" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="inline mr-2" /> LinkedIn
           </a>
-          <a href="https://github.com/WaizKayani" className="netflix-button" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/WaizKayani" className="netflix-button text-sm sm:text-base" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub className="inline mr-2" /> GitHub
           </a>
         </div>
-        <div className="flex flex-wrap justify-center gap-4 mt-4">
-          <a href="#skills" className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover">Skills</a>
-          <a href="#projects" className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover">Projects</a>
-          <a href="#experience" className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover">Experience</a>
-          <a href="#leadership" className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover">Leadership</a>
-          <a href="#contact" className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover">Contact</a>
+        <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center gap-3 sm:gap-4 mt-4">
+          <button onClick={() => navigate('/skills')} className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover text-sm sm:text-base py-2 sm:py-3">Skills</button>
+          <button onClick={() => navigate('/projects')} className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover text-sm sm:text-base py-2 sm:py-3">Projects</button>
+          <button onClick={() => navigate('/work-experience')} className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover text-sm sm:text-base py-2 sm:py-3">Experience</button>
+          <button onClick={() => navigate('/blogs')} className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover text-sm sm:text-base py-2 sm:py-3">Leadership</button>
+          <button onClick={() => navigate('/contact-me')} className="netflix-button bg-netflix-dark-gray hover:bg-netflix-hover text-sm sm:text-base py-2 sm:py-3 col-span-2 sm:col-span-1">Contact</button>
         </div>
       </motion.div>
       {/* Netflix-style background gradient */}
