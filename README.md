@@ -74,9 +74,3 @@ This is my personal portfolio, designed and built to showcase my software engine
 For opportunities or questions, please reach out via [email](mailto:kayani.6@osu.edu) or [LinkedIn](https://www.linkedin.com/in/waizkayani/).
 
 ---
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
