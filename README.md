@@ -1,26 +1,27 @@
-# Waiz Kayani – Netflix-Inspired Portfolio
+# Waiz Kayani – Netflix-Inspired Portfolio 
+https://www.waizkayani.website
 
-> **Professional Portfolio for Summer 2026 SWE Internship Applications**
-
----
-
-## 🚀 Overview
-
-This is my personal portfolio, designed and built from scratch to showcase my software engineering skills, projects, and experience. Inspired by Netflix's iconic UI/UX, this site demonstrates my ability to deliver polished, responsive, and interactive web applications using a modern tech stack.
+> **Professional Portfolio Actively looking for Summer 2026 SWE Internship**
 
 ---
 
-## 🛠️ Tech Stack
+## Overview
+
+This is my personal portfolio, designed and built to showcase my software engineering skills, projects, and experience. Inspired by Netflix's iconic UI/UX, this site demonstrates my ability to deliver polished, responsive, and interactive web applications using a modern tech stack.
+
+---
+
+## Tech Stack
 
 - **Frontend:** React, Vite, TypeScript
 - **Styling:** Tailwind CSS, Framer Motion (for animations)
 - **Routing:** React Router
 - **Build Tools:** Vite, npm
-- **Deployment:** [Live Demo Coming Soon](#) <!-- Replace with your link -->
+- **Deployment:** https://www.waizkayani.website
 
 ---
 
-## ✨ Features
+## Features
 
 - **Netflix-Style UI/UX:** Custom profile selection, sticky navbar, carousels, and timeline layouts.
 - **Mobile Responsive:** Fully optimized for all devices.
@@ -30,7 +31,7 @@ This is my personal portfolio, designed and built from scratch to showcase my so
 
 ---
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 - Advanced React component architecture
 - Responsive design with Tailwind CSS
@@ -41,19 +42,14 @@ This is my personal portfolio, designed and built from scratch to showcase my so
 
 ---
 
-## 🧑‍💻 About Me
+## Screenshots
 
-I'm Waiz Kayani, a passionate software engineer actively seeking Summer 2026 SWE internship opportunities. This portfolio is a living demonstration of my technical and creative abilities, as well as my commitment to building user-centric products.
-
----
-
-## 📸 Screenshots
-
-<!-- Add screenshots here after deployment -->
+<img width="1710" alt="whowatchingpage" src="https://github.com/user-attachments/assets/29d0dcca-651c-4fff-84a7-a0fed153c61a" />
+<img width="1710" alt="homepage" src="https://github.com/user-attachments/assets/a30a0d07-f677-4f2f-91c8-07fd09c7b064" />
 
 ---
 
-## 📂 Sections
+## Sections
 
 - **Home:** Introduction and quick links
 - **Skills:** Technical proficiencies
@@ -66,22 +62,15 @@ I'm Waiz Kayani, a passionate software engineer actively seeking Summer 2026 SWE
 
 ---
 
-## 🔗 Links
+## Links
 
 - **[LinkedIn](https://www.linkedin.com/in/waizkayani/)**
-- **[Resume](#)** <!-- Add your resume link -->
-- **[Live Demo](#)** <!-- Add your deployed site link -->
+- **[Live Website](#)** https://www.waizkayani.website
 
 ---
 
-## 📬 Contact
+## Contact
 
-For opportunities or questions, please reach out via [email](mailto:waizkayani@gmail.com) or [LinkedIn](https://www.linkedin.com/in/waizkayani/).
-
----
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
+For opportunities or questions, please reach out via [email](mailto:kayani.6@osu.edu) or [LinkedIn](https://www.linkedin.com/in/waizkayani/).
 
 ---
