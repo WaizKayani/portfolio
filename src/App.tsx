@@ -9,6 +9,7 @@ import Recommendations from './pages/Recommendations';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import ContactMe from './pages/ContactMe';
+import RequestResume from './pages/RequestResume';
 import Layout from './Layout';
 import Music from './pages/Music';
 import Reading from './pages/Reading';
@@ -78,6 +79,11 @@ const App: React.FC = () => {
         <Route path="/contact-me" element={
           <PageTransition>
             <Layout><ContactMe /></Layout>
+          </PageTransition>
+        } />
+        <Route path="/request-resume" element={
+          <PageTransition>
+            <Layout><RequestResume /></Layout>
           </PageTransition>
         } />
         <Route path="/music" element={
