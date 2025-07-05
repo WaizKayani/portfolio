@@ -2,8 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './TopPicksRow.css';
 import { FaPassport, FaCode, FaBriefcase, FaCertificate, FaHandsHelping, FaProjectDiagram, FaEnvelope, FaMusic, FaBook } from 'react-icons/fa';
-
-type ProfileType = 'recruiter' | 'developer' | 'stalker' | 'adventure';
+import { ProfileType } from '../types';
 
 interface TopPicksRowProps {
   profile: ProfileType;
@@ -31,7 +30,7 @@ const topPicksConfig = {
     { title: "Projects", imgSrc: "https://picsum.photos/seed/planning/250/200", icon: <FaProjectDiagram />, route: "/projects" },
     { title: "Contact Me", imgSrc: "https://picsum.photos/seed/call/250/200", icon: <FaEnvelope />, route: "/contact-me" }
   ],
-  adventure: [
+  adventurer: [
     { title: "Skills", imgSrc: "https://picsum.photos/seed/music/250/200", icon: <FaCode />, route: "/skills" },
     { title: "Experience", imgSrc: "https://picsum.photos/seed/innovation/250/200", icon: <FaBriefcase />, route: "/work-experience" },
     { title: "Certifications", imgSrc: "https://picsum.photos/seed/medal/250/200", icon: <FaCertificate />, route: "/certifications" },

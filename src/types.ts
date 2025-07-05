@@ -1,5 +1,7 @@
 // types.ts
 
+export type ProfileType = 'recruiter' | 'developer' | 'stalker' | 'adventurer';
+
 export interface ProfileBanner {
   backgroundImage: { url: string };
   headline: string;

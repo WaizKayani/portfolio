@@ -3,8 +3,7 @@ import './ProfileBanner.css';
 import PlayButton from '../components/PlayButton';
 import MoreInfoButton from '../components/MoreInfoButton';
 import { useNavigate } from 'react-router-dom';
-
-type ProfileType = 'recruiter' | 'developer' | 'stalker' | 'adventurer';
+import { ProfileType } from '../types';
 
 interface ProfileBannerProps {
   profile: ProfileType;
