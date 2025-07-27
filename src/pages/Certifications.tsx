@@ -26,7 +26,7 @@ const certifications: Certification[] = [
     issuer: 'J.P. Morgan',
     issuedDate: 'July, 2025',
     iconName: 'jpmorgan',
-    link: '',
+    link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_zaRY2JQTev6v72KoA_1753585449861_completion_certificate.pdf',
   },
 ];
 

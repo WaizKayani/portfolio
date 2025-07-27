@@ -48,7 +48,7 @@ const AppLoader: React.FC<AppLoaderProps> = ({ isLoading, children }) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6, duration: 0.5 }}
       >
-        Loading your portfolio...
+        Loading the portfolio...
       </motion.p>
 
       {/* Shimmer effect */}

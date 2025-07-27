@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaJava, FaPython, FaSwift, FaJs, FaReact, FaNodeJs, FaDatabase, FaDocker, FaGitAlt, FaHtml5, FaCss3Alt, FaLinux, FaTerminal } from 'react-icons/fa';
-import { SiMongodb, SiMysql, SiTensorflow, SiFastapi, SiC, SiDotnet, SiPowershell, SiD3Dotjs } from 'react-icons/si';
+import { SiMongodb, SiMysql, SiFastapi, SiC, SiDotnet, SiTypescript, SiPytorch } from 'react-icons/si';
 
 const skills = [
   {
@@ -14,18 +14,19 @@ const skills = [
       { name: 'JavaScript', icon: <FaJs /> },
       { name: 'React.js', icon: <FaReact /> },
       { name: 'Node.js', icon: <FaNodeJs /> },
-      { name: 'D3.js', icon: <SiD3Dotjs /> },
+      { name: 'TypeScript', icon: <SiTypescript /> },
       { name: 'FastAPI', icon: <SiFastapi /> },
       { name: 'MySQL', icon: <SiMysql /> },
       { name: 'MongoDB', icon: <SiMongodb /> },
       { name: 'Unix', icon: <FaLinux /> },
       { name: 'Docker', icon: <FaDocker /> },
-      { name: 'TensorFlow', icon: <SiTensorflow /> },
+      { name: 'Assembly X86', icon: <FaTerminal /> },
+      { name: 'NumPy', icon: <FaPython /> },
+      { name: 'PyTorch', icon: <SiPytorch /> },
+      { name: 'Hugging Face Transformers', icon: <FaReact /> },
       { name: 'HTML5', icon: <FaHtml5 /> },
       { name: 'CSS', icon: <FaCss3Alt /> },
       { name: '.NET', icon: <SiDotnet /> },
-      { name: 'PowerShell', icon: <SiPowershell /> },
-      { name: 'Bash', icon: <FaTerminal /> },
     ],
   },
   {
@@ -36,7 +37,7 @@ const skills = [
       { name: 'Git', icon: <FaGitAlt /> },
       { name: 'Databases', icon: <FaDatabase /> },
       { name: 'Object Oriented Programming', icon: <FaReact /> },
-      { name: 'Time Complexities', icon: <FaReact /> },
+      { name: 'Complexity Analysis', icon: <FaReact /> },
     ],
   },
 ];

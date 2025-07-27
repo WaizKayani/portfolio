@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaGraduationCap, FaBriefcase, FaChess, FaParachuteBox, FaHorse, FaCar, FaChartLine, FaRocket } from 'react-icons/fa';
+import { FaGraduationCap, FaBriefcase, FaChess, FaParachuteBox, FaHorse, FaCar, FaChartLine, FaRocket, FaBrain, FaDumbbell, FaGlobe } from 'react-icons/fa';
 
 const shortTermGoals = [
   {
@@ -28,10 +28,16 @@ const shortTermGoals = [
     color: "from-red-500 to-red-700"
   },
   {
-    title: "Learn Horseback Riding",
-    icon: <FaHorse className="text-3xl" />,
-    description: "Develop equestrian skills and connect with nature through horseback riding.",
+    title: "Get in a Better Shape",
+    icon: <FaDumbbell className="text-3xl" />,
+    description: "Improve physical fitness and maintain a healthy lifestyle through regular exercise.",
     color: "from-orange-500 to-orange-700"
+  },
+  {
+    title: "Travel More",
+    icon: <FaGlobe className="text-3xl" />,
+    description: "Explore new places, cultures, and experiences to broaden my perspective.",
+    color: "from-cyan-500 to-cyan-700"
   }
 ];
 
@@ -41,12 +47,6 @@ const longTermGoals = [
     icon: <FaBriefcase className="text-3xl" />,
     description: "Work as a software engineer at a major technology company.",
     color: "from-indigo-500 to-indigo-700"
-  },
-  {
-    title: "Dream Car",
-    icon: <FaCar className="text-3xl" />,
-    description: "Purchase my dream car as a symbol of hard work and achievement.",
-    color: "from-pink-500 to-pink-700"
   },
   {
     title: "Investment Portfolio",
@@ -59,6 +59,12 @@ const longTermGoals = [
     icon: <FaRocket className="text-3xl" />,
     description: "Launch and scale multiple successful startup ventures beyond Kiani ATM Solutions.",
     color: "from-yellow-500 to-yellow-700"
+  },
+  {
+    title: "Building Expertise in AI",
+    icon: <FaBrain className="text-3xl" />,
+    description: "Develop deep expertise in artificial intelligence and machine learning technologies.",
+    color: "from-purple-500 to-purple-700"
   }
 ];
 
@@ -166,4 +172,4 @@ const FutureCareerPlans: React.FC = () => {
   );
 };
 
-export default FutureCareerPlans; 
+export default FutureCareerPlans;

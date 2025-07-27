@@ -50,12 +50,12 @@ const timelineData = [
   {
     timelineType: 'education',
     name: 'The Ohio State University',
-    title: 'B.Sc. Computer Science & Information, AI Specialization',
+    title: 'Bachelor of Science, Computer Science and Information',
     techStack: '',
     summaryPoints: [
       'Specializing in Artificial Intelligence. Expected Graduation: 05/2027.'
     ],
-    dateRange: '2023–2027',
+    dateRange: '2024–2027',
   },
 ];
 

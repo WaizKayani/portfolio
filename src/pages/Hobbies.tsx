@@ -27,12 +27,7 @@ const hobbies = [
     description: "Passionate about building projects like this Netflix-style portfolio and FocusSpace app.",
     color: "from-blue-500 to-blue-700"
   },
-  {
-    title: "Running the Business",
-    icon: <FaBriefcase className="text-3xl" />,
-    description: "Entrepreneurial spirit managing Kiani ATM Solutions and exploring business opportunities.",
-    color: "from-green-500 to-green-700"
-  },
+
   {
     title: "Leading Student Organizations",
     icon: <FaUsers className="text-3xl" />,

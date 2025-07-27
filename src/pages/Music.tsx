@@ -1,7 +1,7 @@
 import React from 'react';
 import './Music.css';
 
-const favoriteGenres = ["Rock", "Classic Rock", "Hard Rock", "Blues", "Alternative"];
+
 
 const favoriteSongs = [
   { 
@@ -52,16 +52,7 @@ const Music: React.FC = () => {
         <p>"Music is to the soul what words are to the mind" 🎵</p>
       </div>
 
-      <div className="genre-section">
-        <h3>Explore by Genre</h3>
-        <div className="genres">
-          {favoriteGenres.map((genre, index) => (
-            <div key={index} className="genre-card" style={{ animationDelay: `${index * 0.2}s` }}>
-              <p>{genre}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+
 
       <div className="albums-section">
         <h3>Favorite Songs</h3>
@@ -87,7 +78,7 @@ const Music: React.FC = () => {
       </div>
 
       <div className="traditional-section">
-        <h3>Favourite Traditional Music</h3>
+        <h3>Favourite Traditional Songs</h3>
         <div className="traditional-songs">
           {favoriteTraditionalSongs.map((song, index) => (
             <div key={index} className="traditional-card" style={{ animationDelay: `${index * 0.3}s` }}>

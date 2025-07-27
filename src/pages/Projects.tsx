@@ -61,6 +61,19 @@ const projects = [
     ],
     github: 'https://github.com/WaizKayani/kianiatmsolutions',
   },
+  {
+    title: 'This Website',
+    description:
+      'Netflix-inspired portfolio website built with React.js, TypeScript, and Tailwind CSS. Features interactive profile selection, smooth animations with Framer Motion, and responsive design. Includes sections for projects, skills, work experience, and personal interests with a modern Netflix-style UI.',
+    tech: [
+      { name: 'React.js', icon: <FaReact /> },
+      { name: 'TypeScript', icon: <SiJavascript /> },
+      { name: 'Tailwind CSS', icon: <SiCss3 /> },
+      { name: 'Framer Motion', icon: <FaReact /> },
+      { name: 'Vite', icon: <FaReact /> },
+    ],
+    github: 'https://github.com/WaizKayani/portfolio',
+  },
 ];
 
 const cardVariants = {
