@@ -37,7 +37,7 @@ const timelineData = [
   {
     timelineType: 'work',
     name: 'FirstEnergy Corporate',
-    title: 'IT Intern',
+    title: 'Software Engineer Intern',
     techStack: 'Java, Bash, Python, SQL, Oracle, MySQL, Azure',
     summaryPoints: [
       'Built and maintain a .NET-based API health checker and logging framework, monitoring service uptime for 10,000+ users.',
