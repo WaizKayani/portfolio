@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import ProfilePage from './profilePage/profilePage';
 import Browse from './browse/browse';
-import WorkPermit from './pages/WorkPermit';
+
 import WorkExperience from './pages/WorkExperience';
 import Recommendations from './pages/Recommendations';
 import Skills from './pages/Skills';
@@ -51,11 +51,7 @@ const App: React.FC = () => {
             <Home />
           </PageTransition>
         } />
-        <Route path="/work-permit" element={
-          <PageTransition>
-            <Layout><WorkPermit /></Layout>
-          </PageTransition>
-        } />
+
         <Route path="/work-experience" element={
           <PageTransition>
             <Layout><WorkExperience /></Layout>
