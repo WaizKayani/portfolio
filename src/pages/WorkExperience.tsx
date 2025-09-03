@@ -27,12 +27,13 @@ const timelineData = [
     title: 'Specialist',
     techStack: 'Apple Retail, Customer Experience',
     summaryPoints: [
-      'Recognized company-wide for generating 200+ business customer introductions, driving a 30% increase in enterprise outreach.',
+      'Recognized company-wide for generating 200+ B2B customer introductions, driving a 30% increase in enterprise outreach.',
       'Stayed up to date with the latest Apple technologies and educated 100+ customers weekly to drive informed purchases.',
       'Resolved technical and service issues swiftly, reducing resolution time by 35% and improving NPS scores.',
-      'Delivered 5+ Apple Vision Pro and Apple Intelligence demos daily, increasing interest in new product adoption.'
+      'Delivered 5+ Apple Vision Pro and Apple Intelligence demos daily, increasing interest in new product adoption.',
+      'Collaborated with cross-functional teams to deliver seamless customer solutions, strengthening overall team performance.'
     ],
-    dateRange: '08/2024–Present',
+    dateRange: '08/2024–01/2025',
   },
   {
     timelineType: 'work',
@@ -40,12 +41,13 @@ const timelineData = [
     title: 'Software Engineer Intern',
     techStack: 'Java, Bash, Python, SQL, Oracle, MySQL, Azure',
     summaryPoints: [
-      'Built and maintain a .NET-based API health checker and logging framework, monitoring service uptime for 10,000+ users.',
+      'Built and maintained a .NET-based API health checker and logging framework, monitoring service uptime for 10,000+ users.',
       'Developed internal CLI tools in Java for system diagnostics and log parsing, decreasing manual debugging time by 40%.',
-      'Automated cross-platform patching operations using Bash and Python scripts on Unix/Linux environments, increasing system uptime by 15% across 500+ nodes by streamlining update workflows and ensuring consistent configuration management.',
-      'Refactored and optimize SQL queries across Oracle, MySQL, and Azure SQL databases, cutting load times by 25%, improving overall responsiveness and reliability of enterprise applications used by over 8,000 employees.'
+      'Automated cross-platform patching using Bash and Python scripts on Unix/Linux environments, improving uptime by 15%.',
+      'Built a Kendo UI grid with React.js components in an internal dashboard, providing real-time Oracle session monitoring.',
+      'Refactored and optimized SQL queries across Oracle, MySQL, and Azure SQL databases, achieving a 25% reduction in query load times and strengthening backend performance.'
     ],
-    dateRange: '05/2025–Present',
+    dateRange: '05/2025–08/2025',
   },
   {
     timelineType: 'education',

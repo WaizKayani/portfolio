@@ -34,6 +34,7 @@ const Leadership: React.FC = () => {
           <li>Lead a 6-member executive board and manage $5,000+ in funding, scaling PSA's active membership from 40 to 200+ through high-impact cultural programming and outreach.</li>
           <li>Organized 10+ high-engagement events, boosting average attendance 5x and establishing PSA as a top-growing org on campus.</li>
           <li>Improved planning workflows and logistics, reducing event prep time by 40% and boosting internal team coordination.</li>
+          <li>Authored and presented the organization's constitution to officials, aligning policies and strengthening future leadership.</li>
         </ul>
       </motion.div>
     </div>
